@@ -4,24 +4,25 @@ html, body
   	right: 0px;
   	bottom: 0px;
   	left: 0px;
-  	width:980px;
+  	width:700px;
   	height: 100%;
   	margin: auto;
 }
 
 #title
 {
-	font-family: 'Sanchez', serif;
-	font-size: 3em;
+	font-family: 'Great Vibes', cursive;
+	font-size: 4em;
 }
 
 .aboutme
 {
 	font-family: 'Muli', serif;
-	font-size: 1.5em;
-	text-align:left;
+	font-size: 1.4em;
+	text-align:center;
 	color: #575757;
 }
+
 
 .heading
 {
@@ -42,23 +43,27 @@ html, body
 	font-size: 1.5em;
 }
 
-#asulogo
+#githublogo
 {
-	width:45%;
 	text-align:right;
 	padding-right:20px;
 }
 
 #linkedinlogo
 {
-	width:55%;
+	text-align:center;
+	padding-left:20px;
+}
+
+#ltwitterlogo
+{
 	text-align:left;
 	padding-left:20px;
 }
 
 table
 {
-	width:1000px;
+	width:700px;
 	text-align:center;
 }
 
@@ -70,32 +75,14 @@ table
 	padding-right:10px;
 }
 
-a {
+a, a:active, a:link, a:visited, a:focus
+{
 	color: black;
-	text-decoration: underline;
-}
-
-a:active {
-	color: black;
-	text-decoration: underline;
-}
-
-a:link {
-	color: black;
-	text-decoration: underline;
-}
-
-a:visited {
-	color: black;
-	text-decoration: underline;
-}
-
-a:focus {
-	color: black;
-	text-decoration: underline;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
 a:hover {
-	color: black;
+	color: #dd5700;
 	text-decoration: underline;
 }
