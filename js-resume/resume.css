@@ -27,10 +27,12 @@ table {
   font-style: italic;
 }
 
-.bold {
+a, .bold {
   font-weight:bold;
   font-family: 'Lusitana', serif;
   font-size: 1.1em;
+  text-decoration: none;
+  color: #000000;
 }
 
 .title {
